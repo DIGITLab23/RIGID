@@ -1,0 +1,12 @@
+{
+    "data_size": 100,
+    "frequency_resolution": 100,
+    "target_frequency_ranges": "auto",
+    "design_variable_names": ["a", "b"],
+    "categorical_variable_indices": [],
+    "data_path": "data/data_test_func.mat",
+    "absorbance_threshold": 0.9,
+    "num_estimators": 1000,
+    "num_generated_designs": 100,
+    "sample_threshold": 0.5
+}

@@ -1,0 +1,11 @@
+{
+    "target_frequency_ranges": "auto",
+    "design_variable_names": ["Material 1", "Material 2", "Material 3", "Geometric Type", "Layer Thickness 1", "Layer Thickness 2", "Layer Thickness 3"],
+    "categorical_variable_indices": [0, 1, 2, 3],
+    "data_path": "data/MA_data_Wayne_V4_n258_nf33.mat",
+    "absorbance_threshold": 0.9,
+    "num_estimators": 1000,
+    "num_generated_designs": 100,
+    "sample_threshold": 0.5,
+    "val_data_dir": "validation"
+}

@@ -1,0 +1,11 @@
+{
+    "target_bandgap": "auto",
+    "design_variable_names": ["Strut Radius (um) ", "Center Mass Radius (µm) ", "Corner Mass Radius (um) "],
+    "categorical_variable_indices": [],
+    "data_path": "data/BandgapData.csv",
+    "num_estimators": 1000,
+    "frequency_resolution": 100,
+    "num_generated_designs": 100,
+    "sample_threshold": 0.5,
+    "val_data_path": "validation"
+}
