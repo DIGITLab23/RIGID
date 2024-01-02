@@ -1,8 +1,8 @@
 # RIGID: Random-forest-based Interpretable Generative Inverse Design
 
-Data and code for our paper [Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning]().
+Data and code for our paper [Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning](https://arxiv.org/abs/2401.00003).
 
-![Alt text](/overview.svg)
+![Alt text](/overview.png)
 
 RIGID is an inverse design model that generates designs given (qualitative) functional responses as design targets. Compared to other inverse design methods, RIGID has the following advantages:
 
