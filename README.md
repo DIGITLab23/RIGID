@@ -16,13 +16,13 @@ RIGID is an inverse design model that generates designs given (qualitative) func
 ## License
 This code is licensed under the MIT license. Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
 
-Chen, W. W., Sun, R., Lee, D., Portela, C. M., Chen, W. (2024). Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning. arXiv preprint arXiv:2401.00003.
+Chen, W. W., Sun, R., Lee, D., Portela, C. M., Chen, W. (2023). Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning. arXiv preprint arXiv:2401.00003.
 
-    @article{chen2024generative,
+    @article{chen2023generative,
 	  title={Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning},
 	  author={Chen, Wei W and Sun, Rachel and Lee, Doksoo and Portela, Carlos M and Chen, Wei},
 	  journal={arXiv preprint arXiv:2401.00003},
-	  year={2024}
+	  year={2023}
 	}
 
 ## Code Usage
