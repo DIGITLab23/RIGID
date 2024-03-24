@@ -27,7 +27,7 @@ from inverse import evaluate_satisfaction_discrete
 
 def get_val_data(exp_dir):
     exp_config_path = exp_dir + '/config.json'
-    gen_design_path = exp_dir + '/generated_designs_with_responses.mat'
+    gen_design_path = exp_dir + '/generated_designs_success.mat'
     # Get target frequency ranges from experiment configuration
     with open(exp_config_path, 'r') as file:
         exp_config = json.load(file)
