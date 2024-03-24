@@ -25,7 +25,7 @@ from forward import predict_frequencies
 from inverse import evaluate_satisfaction_discrete
 
 
-def get_val_data(exp_dir):
+def get_val_data(exp_dir, frequencies):
     exp_config_path = exp_dir + '/config.json'
     gen_design_path = exp_dir + '/generated_designs_success.mat'
     # Get target frequency ranges from experiment configuration
@@ -70,7 +70,7 @@ if __name__ == "__main__":
         n_satisfied = 0
         avg_score = 0
         for i in range(n_exp):
-            _, designs, probabilities, _, recalls, _ = get_val_data(exp_dirs[i])
+            _, designs, probabilities, _, recalls, _ = get_val_data(exp_dirs[i], frequencies)
             n_total += designs.shape[0]
             # Calculate how many designs satisfy the target
             n_selected += np.sum(probabilities>=sample_threshold)
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     all_recalls = np.array([])
     all_probs = np.array([])
     for i in range(n_exp):
-        target_fre_ranges, designs, probabilities, responses, recalls, t = get_val_data(exp_dirs[i])
+        target_fre_ranges, designs, probabilities, responses, recalls, t = get_val_data(exp_dirs[i], frequencies)
         all_recalls = np.append(all_recalls, recalls)
         all_probs = np.append(all_probs, probabilities)
         
