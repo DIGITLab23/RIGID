@@ -38,7 +38,7 @@ def get_val_data(exp_dir):
     probabilities = sio.loadmat(gen_design_path)['Ps'].flatten()
     responses = sio.loadmat(gen_design_path)['Ys']
     # Test if generated designs satisfy the target
-    indicators_true = responses >= config['absorbance_threshold']
+    indicators_true = responses >= exp_config['absorbance_threshold']
     recalls, _ = evaluate_satisfaction_discrete(target_fre_ranges, indicators_true, frequencies)
     return target_fre_ranges, designs, probabilities, responses, recalls, t
     
