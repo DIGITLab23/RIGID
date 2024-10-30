@@ -1,5 +1,7 @@
 # RIGID: Random-forest-based Interpretable Generative Inverse Design
 
+[![DOI](https://zenodo.org/badge/728962538.svg)](https://doi.org/10.5281/zenodo.14014652)
+
 Data and code for our paper [Generative Inverse Design of Metamaterials with Functional Responses by Interpretable Learning](https://arxiv.org/abs/2401.00003).
 
 ![Alt text](/overview.png)
